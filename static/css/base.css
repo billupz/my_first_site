@@ -1,0 +1,7 @@
+.colorful-text{
+  color: red;
+  /*padding: 10px; 블럭안에*/
+  margin: 10px; /* 블럭밖에*/
+  background-color: skyblue;
+  height: 100px
+}
