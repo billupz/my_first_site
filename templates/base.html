@@ -1,16 +1,25 @@
-<!DOCTYPE html>
-{% load static %}
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible content="IE=11; IE=10; IE=8; IE7; IE=edge">
-  <meta name="viewport" content="width=divice-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>{% block title %}sample{% endblock %}</title>
-  <link rel="stylesheet" href='{% static "css/base.css" %}'>
+  <title>CSS 예제</title>
+  <link rel="stylesheet" href="./static/css/example2.css">
 </head>
 <body>
-  {% block body %}{% endblock %}
+  <div class="header">
+    <h1> 블로그 </h1>
+  </div>
+  <hr>
+  <div class="main">
+    <div class="navigation">
+      <ul>
+        <li>html 개요</li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <div class="footer">
+    정우준
+  </div>
 </body>
 </html>
